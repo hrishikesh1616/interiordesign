@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kitchen Styling – InteriorStudio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/feather-icons"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9fafb;
+    }
+    .glass {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(12px);
+      border-radius: 1rem;
+    }
+  </style>
+</head>
+<body class="text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white/90 shadow-md sticky top-0 z-50 backdrop-blur">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-gray-800">
+        <a href="home.html">Interior<span class="text-blue-500">Studio</span></a>
+      </h1>
+      <ul class="hidden md:flex space-x-6 text-gray-700 font-medium">
+        <li><a href="home.html" class="hover:text-blue-500 transition">Home</a></li>
+        <li><a href="services.html" class="hover:text-blue-500 transition">Services</a></li>
+        <li><a href="portfolio.html" class="hover:text-blue-500 transition">Portfolio</a></li>
+        <li><a href="contact.html" class="hover:text-blue-500 transition">Contact</a></li>
+        <li><a href="reviews.html" class="hover:text-blue-500 transition">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="bg-blue-100 py-20 text-center">
+    <h2 class="text-5xl font-bold text-gray-800 mb-4">Kitchen Styling</h2>
+    <p class="text-lg text-gray-600 max-w-3xl mx-auto px-4">
+      Designing kitchens that are not only beautiful but also highly functional and tailored to your lifestyle.
+    </p>
+  </section>
+
+  <!-- Content -->
+  <section class="py-16 max-w-5xl mx-auto px-6 glass shadow-lg my-12">
+    <h3 class="text-3xl font-semibold mb-6">Our Kitchen Styling Services</h3>
+    <p class="mb-4">
+      Your kitchen is the heart of your home. Our experts help you style it for maximum efficiency, beauty, and comfort. Whether it’s a complete renovation or a simple refresh, we’ll help you bring your vision to life.
+    </p>
+    <ul class="list-disc list-inside mb-6 text-gray-700">
+      <li>Layout optimization for better workflow</li>
+      <li>Cabinetry, countertop, and backsplash styling</li>
+      <li>Lighting and hardware selection</li>
+      <li>Smart storage solutions</li>
+      <li>Color schemes and appliance integration</li>
+    </ul>
+    <a href="contact.html" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold px-8 py-3 rounded shadow-lg transition">
+      Book Your Kitchen Consultation
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white text-gray-700 shadow-inner mt-20 py-10 text-center">
+    <p>© 2025 InteriorStudio. All rights reserved.</p>
+  </footer>
+
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>

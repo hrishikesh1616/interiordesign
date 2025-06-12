@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Minimalist Space | Interior Studio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <style> body { font-family: 'Poppins', sans-serif; background-color: #f9fafb; } </style>
+</head>
+<body class="text-gray-800">
+  <nav class="bg-white/90 shadow-md sticky top-0 z-50 backdrop-blur">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-gray-800">Interior<span class="text-blue-500">Studio</span></h1>
+      <ul class="hidden md:flex space-x-6 text-gray-700 font-medium">
+        <li><a href="home.html" class="hover:text-blue-500">Home</a></li>
+        <li><a href="services.html" class="hover:text-blue-500">Services</a></li>
+        <li><a href="portfolio.html" class="hover:text-blue-500">Portfolio</a></li>
+        <li><a href="contact.html" class="hover:text-blue-500">Contact</a></li>
+        <li><a href="reviews.html" class="hover:text-blue-500 transition">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="h-[60vh] bg-cover bg-center relative" style="background-image: url('https://cdn.pixabay.com/photo/2017/03/28/12/11/chairs-2181960_1280.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+      <h2 class="text-white text-4xl md:text-6xl font-bold">Minimalist Space</h2>
+    </div>
+  </section>
+
+  <section class="py-16 px-6 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-semibold mb-4">Project Overview</h3>
+    <p class="text-gray-600 mb-6 leading-relaxed">
+      Designed for simplicity and clarity, this minimalist project emphasizes clean lines, functional furniture, and a muted palette. Less truly becomes more in this decluttered, inspiring space.
+    </p>
+    <h4 class="text-2xl font-semibold mb-4">Services Provided</h4>
+    <ul class="list-disc list-inside text-gray-600 space-y-2">
+      <li>Minimalist Design Planning</li>
+      <li>Furniture Curation</li>
+      <li>Monochromatic Styling</li>
+      <li>Space Optimization</li>
+    </ul>
+    <div class="mt-10">
+      <a href="portfolio.html" class="inline-block bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-full font-medium shadow transition">
+        ← Back to Portfolio
+      </a>
+    </div>
+  </section>
+
+  <script>feather.replace();</script>
+</body>
+</html>
